@@ -1,6 +1,6 @@
 # EENA
 The project is the post-training of the neural architectures designed by EENA (Efficient Evolution of Neural Architectures).  
-If you are interested in this project, you can run the Posttraining.py with the default configurations.   
+If you want to execute this project, you can run the Posttraining.py with the default configurations.   
 Serveral configurations:  
   Standard augmentation: We normalize the images using channel means and standard deviations for preprocessing and 
   apply a standard data augmentation scheme (zero-padding with 4 pixels on each side to obtain a 40\*40 pixels image,
