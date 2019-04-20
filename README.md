@@ -8,4 +8,4 @@ then randomly cropping it to size 32\*32 and randomly flipping the image horizon
   \>Cutout: n_holes = 1, length = 16;  
   \>Mixup: α = 1.  
 The model is trained on the full training dataset until convergence using SGDR with a batch size of 128.  
-The final test error on CIFAR-10 can achieves around 2.60.  
+The final test error on CIFAR-10 can achieve around 2.60.  
