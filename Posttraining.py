@@ -178,7 +178,7 @@ model = model_inil()
 plot_model(model, to_file='architecture1.png', show_shapes=True)
 
 # Instantiate and compile model.
-model.compile(loss='categorical_crossentropy', optimizer=optimizers.SGD(lr=0.1, decay=0.0001, momentum=0.9, nesterov=True), metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer=optimizers.SGD(lr=0.1, decay=0., momentum=0.9, nesterov=True), metrics=['accuracy'])
 schedule = SGDRScheduler(min_lr=0, max_lr=0.1, steps_per_epoch=np.ceil(x_train.shape[0] / 128), lr_decay=1, cycle_length=1, mult_factor=2)
 
 datagen_test = ImageDataGenerator(featurewise_center=True, featurewise_std_normalization=True)
